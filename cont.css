@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'verdana';
+src: url("../fuentes/verdana.ttf")
+  format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+/* font-family: 'Lato', sans-serif;*/
+body{
+  margin: inherit;
+  width: inherit;
+  height: inherit;
+}
+.header {
+  background: url(imagenes/universo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  box-sizing: border-box;
+}
+#formulario{
+  width: 100vw;
+  height: 50vh;
+}
+div#formulario {
+  position: relative;
+  font-family: verdana;
+font-size: 1rem;
+top: 1em;
+text-align: center;
+box-sizing: border-box;
+}
+#formulario form {
+position: relative;
+
+margin-left: auto;
+margin-right: auto;
+}
+div form {
+display:inline-block;
+}
+div form {
+  width: 39vw;
+  height: 20vh;
+
+}
+div form .boton {
+  position: relative;
+  top: 2.5em;
+  right: 45%;
+  font-size: 1rem;
+clear: both;
+}
+div label {
+  color:white;
+  float: left;
+}
+div input{
+  float: right;
+font-family: 'Irish Grover', cursive;
+}
+footer {
+height: 20vh;
+background-color: gray;
+box-sizing: border-box;
+text-align: center;
+padding: 1%;
+}

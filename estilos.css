@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'verdana';
+src: url("./fuentes/verdana.ttf")
+  format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+body{
+  font-family:verdana;
+  background:white;
+width: 100vw;
+height: 100vh;
+margin: inherit;
+-ms-scrollbar-width: none;
+}
+a {
+  text-decoration: none;
+}
+#menu li button{
+    width: 12vw;
+    height: 7vh;
+
+}
+.formu ul li button{
+  width:17vw;
+  height:7vh;
+
+color: white;
+}
+.nav ul li button {
+  font-size: 2vw;
+  position: relative;
+  font-family: 'Ceviche One', cursive;
+  width:12vw;
+  height:7vh;
+
+}
+img:hover{
+  border-color: #7c47aa;
+}
+/***************** HEADER ****************/
+
+.header { position: relative;
+  background: url(imagenes/universo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 20vh;
+  width: 100vw;
+	height:20vh;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+}
+#menu
+{
+position:relative;
+}
+
+#menu ul {
+  display: inline-block;
+}
+#menu li {
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0.5em 1em;
+  text-transform: uppercase;
+}
+
+#menu li button {
+   font-size: 2rem;
+   font-family: 'Ceviche One', cursive;
+}
+#menu li button {
+  color: #4d4100;
+  background: url(imagenes/universo2.jpg)
+}
+#menu li button:hover {
+  color:#8e6fc8;
+  background:#ecea86;
+
+}
+#menu li button:active {
+  background: #aad5ff;
+}
+/***************** HEADER ****************/
+/***************** LOGO ****************/
+#logo a .logo {
+  position: relative;
+  float:left;
+  width: 7vw;
+  height: 15vh;
+  margin:0.3em;
+  border-radius: 100px;
+}
+/***************** LOGO ****************/
+/***************** FORMULARIO ****************/
+.formu {
+  float: right;
+    margin: 1%;
+}
+
+.formu ul li {
+  display: inline-block;
+}
+.formu ul li button{
+  font-size: 2em;
+  font-family: 'Ceviche One', cursive;
+  position: relative;
+
+}
+.formu li button {
+  color: #000113;
+  background: url(imagenes/universo3.jpg)
+}
+.formu li button:hover {
+  color:#8e6fc8;
+  background:#f3f3ff;
+}
+.formu li button:active {
+  background: #55567a;
+}
+/***************** FORMULARIO ****************/
+/***************** NAVEGADOR ****************/
+nav {
+  font-family: 'Josefin Sans';
+  font-size: 1.5rem;
+}
+.bloquenav {
+  width: 100vw;
+  height:13vh;
+  background-color:#8F6C49;
+  position: relative;
+  text-align: center;
+  float:left;
+  box-sizing: border-box;
+}
+.nav ul li {
+display: inline-block;
+}
+
+.nav ul li button{
+  color: #7f57c9;
+    background: url(imagenes/madera.jpg)
+}
+.nav ul li button:hover {
+  color:#aaa447;
+  background:#fedad0;
+}
+.nav ul li button:active {
+  background: #aad5ff;
+}
+
+/***************** NAVEGADOR ****************/
+/***************** SECCIÓN ****************/
+section{
+  width: 70vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(imagenes/fondo.jpg);
+  border: solid 1px black;
+    font-size: 1.5em;
+    padding: 2em;
+    float: left;
+    overflow-y: scroll;
+}
+
+section .bloquesect{
+
+}
+.Titulo {
+  padding: 10px;
+  text-align: center;
+font-size: 1.2em;
+background: #a977d7;
+}
+.Bloque1 {
+  padding: 25px;
+  border-radius: 10px;
+  border: solid  black;
+  border-width: 7px;
+  background: #e7bca5;
+  text-align: center;
+}
+section .bloquesect .pasos{
+margin: 20px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: solid  black;
+  border-width: 7px;
+  background: #e7bca5;
+  text-align: center;
+
+}
+section img {
+  width: 30vw;
+  height: 35vh;
+  position: relative;
+  left: 30%;
+  border: 10px #F0C7B7 solid;
+}
+
+/***************** SECCIÓN ****************/
+/***************** ASIDE ****************/
+
+.bloqueside {
+  background:#E3C9F5;
+  float: right;
+  text-align: center;
+  width: 30vw;
+  height:100vh;
+  box-sizing: border-box;
+}
+.bloqueside h2 {
+  display: block;
+  width: 30vw;
+  text-align: center;
+  overflow: scroll;
+}
+.bloqueside .musica1 audio {
+  width: 20vw;
+  height: 10vh;
+}
+.bloqueside .mapa iframe {
+  width: 25vw;
+  height: 28vh;
+}
+.bloqueside .Video iframe {
+  width: 25vw;
+  height: 28vh;
+}
+.bloqueside .mapa {
+  margin 1%
+}
+.bloqueside .Video {
+  margin: 1%;
+}
+/***************** ASIDE ****************/
+
+#Comentarios {
+clear: both;
+width: 100vw;
+height: 20vh;
+overflow: scroll;
+}
+
+
+/***************** FOOTER ****************/
+footer {
+clear: both;
+  background: #4A4A4A;
+  padding: 3em;
+  text-align: center;
+  text-decoration-color: #212121;
+/***************** FOOTER ****************/
